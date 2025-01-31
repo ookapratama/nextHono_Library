@@ -5,6 +5,7 @@ export default {
   out: './app/api/src/db/migrations',
   dialect: 'mysql',
   dbCredentials: {
+    // url : process.env.DB_URL
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
